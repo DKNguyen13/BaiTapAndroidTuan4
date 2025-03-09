@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- Mã số bài hát -->
+    <TextView
+        android:id="@+id/tv_code"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="60650"
+        android:textColor="#19b395"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- Chứa tiêu đề, lời bài hát, nghệ sĩ -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="8dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HÃY TIN ANH LẦN NỮA"
+            android:textColor="#2c3e50"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_lyric"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Dầu cho ta đã sai khi ở bên nhau Cô yêu thương"
+            android:textColor="#34495e"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thiên Dũng"
+            android:textColor="#7f8c8d"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>
